@@ -1,0 +1,130 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+#root {
+  display: flex;
+  flex-wrap: wrap;
+  height: 100vh;
+  width: 100vw;
+  justify-content: center;
+  align-items: center;
+}
+
+.application-name {
+  display: flex;
+  flex-direction: row;
+  height: 15%;
+  width: 100%;
+  font-size: 35px;
+  justify-content: center;
+  align-items: center;
+}
+
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  height: 85%;
+  width: 100%;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.movie-container {
+  display: flex;
+  flex-direction: column;
+  height: 45%;
+  min-width: 30%;
+  border: 1px solid black;
+  justify-content: center;
+  align-items: center;
+}
+
+.details {
+  display: flex;
+  flex-direction: column;
+  font-size: 20px;
+  height: 70%;
+  width: 100%;
+  border: 1px solid black;
+  justify-content: center;
+  align-items: center;
+}
+
+.like {
+  display: flex;
+  flex-direction: row;
+  height: 30%;
+  width: 20%;
+  margin: 5px;
+  border: 1px solid black;
+  justify-content: center;
+  align-items: center;
+}
+
+.black-watchlist {
+  display: flex;
+  flex-direction: row;
+  height: 15%;
+  width: 100%;
+  border: 1px solid black;
+  justify-content: center;
+  align-items: center;
+}
+
+.red-watchlist {
+  display: flex;
+  flex-direction: row;
+  height: 15%;
+  width: 100%;
+  color: red;
+  border: 1px solid black;
+  justify-content: center;
+  align-items: center;
+}
+
+.delete {
+  display: flex;
+  flex-direction: row;
+  height: 15%;
+  width: 100%;
+  border: 1px solid black;
+  justify-content: center;
+  align-items: center;
+}
+
+.like,
+.black-watchlist,
+.red-watchlist,
+.delete:hover {
+  cursor: pointer;
+}
+
+
+.reset{
+  display: flex;
+  flex-direction: column;
+  height: 85%;
+  width: 100%;
+  font-size: 25px;
+  justify-content: center;
+  align-items: center;
+}
+
+.button{
+  height: 10%;
+  width: 10%;
+  font-size: 20px;
+  border: 1px solid black;
+  border-radius: 5px;
+}
+
+.button:hover{
+  cursor: pointer;
+}
